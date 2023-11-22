@@ -10,7 +10,7 @@ function App() {
   const [isLightOn, setIsLightOn] = useState(false);
   const  handleTurnOn = async (miniserver: string) => {
     const turnOn = "SET(Lico;On;Pulse)"
-    await axios.post(`http://localhost:3000/dev/sps/io/Vti/${turnOn}`, { miniserver })
+    await axios.post(`http://15.206.69.96:3000/dev/sps/io/Vti/${turnOn}`, { miniserver })
     .then((response) => {
       if (response.status === 200) {
         console.log(response.data);
@@ -25,7 +25,7 @@ function App() {
 
   const handleTurnOff = async (miniserver: string) => {
     const turnOff = "SET(Lico;Off;Pulse)"
-    await axios.post(`http://localhost:3000/dev/sps/io/Vti/${turnOff}`, { miniserver })
+    await axios.post(`http://15.206.69.96:3000/dev/sps/io/Vti/${turnOff}`, { miniserver })
     .then((response) => {
       if (response.status === 200) {
         console.log(response.data)

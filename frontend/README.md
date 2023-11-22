@@ -12,11 +12,14 @@
 
 To deploy this project run
 
-- install all node packages
+Install dependencies
+
 ```bash
   npm install
 ```
-- run the application
+
+Start the server
+
 ```bash
   npm run dev
 ```
