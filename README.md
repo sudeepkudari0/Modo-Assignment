@@ -13,3 +13,8 @@ React Dashboard application to control luxone miniserver.
 React application responsible for UI  
 
 ## More Info on respective folders
+
+## Screenshots
+
+<img src=https://raw.github.com/sudeepkudari0/Modo-Assignment/main/Screenshots/On.png>
+<img src=https://raw.github.com/sudeepkudari0/Modo-Assignment/main/Screenshots/Off.png>
